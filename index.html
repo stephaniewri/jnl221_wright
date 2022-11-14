@@ -1,40 +1,159 @@
-<!-- This is an html page for the 12:30 section of JNL221.
-This page will be used at times for explaining homework instructions
-or displaying student work. -->
+<!-- Complete this worksheet in html and css. Instructions are as comments; you may use reference_sheet.html and the internet to jog your memory on html tags and css. -->
 
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>FOUNDATIONS OF DATA AND DIGITAL JOURNALISM</title>
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
-	<link type="text/css" rel="stylesheet" href="/index.css" />
-</head>
+    <head>
+        <meta charset="utf-8">
+        <title>Basic HTML</title>
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,400,300,600,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+        
+        <style>
+        
+        p {
+            color: darkslategray;
+            font-size: 16px;
+            font-family: 'Open Sans', serif;
+            width: 50%;
+        }
+        #quote {
+            color: magenta;
+            font-style: italic;
+            border: solid lightskyblue 2px;
+        }
 
-<!-- DO NOT EDIT ANYTHING IN THE HEAD TAG ^ -->
+        #bargraph {
+            border: 1px solid gray;
+            padding-left: 10px;
+            padding-bottom: 10px;
+            width: 25%;
+        }
+        .bar_label {
+            color: red;
 
-<body>
-	
-	<!-- Intro row -->
-	<div id="intro" class="col-sm-12">
-		<h1> <!-- /// EDITABLE ONE /// --> JNL221, Fall 2023
-		</h1>
-		<h4> <!-- /// EDITABLE TWO /// --> Stephanie Wright</h4>
-	</div>
+        }
+        .book {
+            color:  darkorchid;
 
-	<div class="container content">
-		<p> <!-- /// EDITABLE THREE /// --> I had a smoothie from food.com today. </p>
-	</div>
+        }
+        #longest {
+            width: 300px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #longer {
+            width: 200px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #long {
+            width: 170px;
+            height: 10px;
+            background: gray;
+            border: 1px solid red;
+        }
+        #quote {
+            color: deeppink;
+        }
+
+        </style>
+    </head>
+    
+    <body>
+
+    <h1>A little bit about me!</h1>
+    
+    <h2>My intro</h2>
+    <!-- Include: a brief intro to yourself -- where you're from, what you like to do for fun, what you're studying, and who your community or family is. -->
+    <!-- Tags to use: <p>, <strong>, <i> -->
+        <p> I am a sophomore at SU dual majoring in <strong>Political Science</strong> and <strong>Magazine, News, and Digital Journalism</strong>. I am from the <i>Washington, D.C.</i> area and hope to participate in the Newhouse D.C. semester next spring. Outside of school, I am an assistant news editor at <strong>The Daily Orange</strong>and work in communications for <strong>University Union</strong>. I also occasionally continue work for my internships from this summer with an art gallery and magazine in Middleburg, V.A. My other life involvements include vegan food, music, movies, art, coffee, thrifting, reading, Spotify, and Pinterest. </p>
+    
+
+    <h2>My handles</h2>
+    <!-- Include: at least two handles for your social media accounts -->
+    <!-- Tags to use: <p>, <a> -->
+        <p> <a href= https://www.instagram.com/stephaniewri/ target= "_blank">Instagram: @stephaniewri</a> <a href= https://twitter.com/stephaniwri_ target="_blank">
+        Twitter: @stephaniwri</a></p>
+
+    
+    <h2> ~ Challenge: Why is my text maroon? ~</h2>
+    <!-- Challenge! The text in your p tags is currently maroon. Figure out why and make it dark gray, using a hex code. (Hint: use google to find a hex code for a dark gray) -->
+    <p>Just kidding! Now my text is dark slate gray.</p>
 
 
-  	<!-- About Row -->
-	<div class="row">
-		<div id="end" class="col-sm-12">
-			<h4> <!-- /// EDITABLE FOUR /// --> made by github pages with montserrat and open sans, at newhouse school of communications</h4>
-		</div>
-	</div>
+    <h2>My favorite meme</h2>
+    <!-- Include: "large_wink.png" as an image -->
+    <!-- Tags to use: <img> -->
+    <!-- Hint! Use 'reference_sheet.html', which you downloaded with this file, to remember how to include an image. -->
+    <img src="large_wink.png" alt="an image of a woman winking" height="300px" width="400px">
 
-</body>
+    
+    <h2>Why I'm a great student</h2>
+    <!-- Include: an unordered list -->
+    <!-- Tags to use: <ul>, <li>, <strong> -->
+        <ul>
+            <li> I am <strong>determined</strong> to expand my skills as a journalist to provide accurate, unbiased, objective information and explanations because people need to know what's going on!
+            <li> I am motivated by <strong>deadlines and feedback</strong> so I work hard to meet professors' expectations and learn from assignments I complete. 
+            <li> I try my best not to skip class and when I am in class I stay on-task, <strong>participate</strong>, and avoid disruption. 
+        </ul>
+
+    
+    <h2>Top 3 most famous people from my hometown</h2>
+    <!-- Include: an ordered list -->
+    <!-- Tags to use: <ol>, <li>, <a> -->
+        <ol>
+            <li> Antonin Scalia, former U.S. Supreme Court justice</li>
+            <li> Newt Gingrich, former Speaker of the House of Representatives</li>
+            <li> Mary Schmidt Amons, cast member of The Real Housewives of D.C.</li>
+        </ul>
+
+
+    <h2> ~ Challenge: Read my poetry ~</h2>
+    <!-- Challenge! Use the internet to figure out what a <br> tag is. Write a short poem about your college experience so far. -->
+    <!-- Tags to use: <p>, at least two <br> tags -->
+        <p>
+            I love college <br>
+            because it expands my knowledge<br>
+            and when I go back home I get sad<br>
+            because Syracuse is just so rad.<br> 
+        </p>
+        
+
+    
+    <h2>This is one of my favorite quotes</h2>
+    <!-- Include: a quote from a book -- quote should be in italics and gray, title of source should be in an <h3> tag -->
+    <!-- Tags to use: <h3>, <p> with an id named 'quote' that is styled in the <style> section -->
+        <h3> A Room of One's Own by Virginia Woolf</h3>
+        <p id="quote"></p>
+        <p><i>“Lock up your libraries if you like; but there is no gate, no lock, no bolt that you can set upon the freedom of my mind.”</i></p>
+
+
+    <h2>These are more of my favorite books</h2>
+    <!-- Include: an unordered list of at least three books, list items should have a border -->
+    <!-- Tags to use: <ul>, <li> with classes named 'book' that is styled in the <style> section -->
+            <div style="border: 2px solid mediumpurple; width: 50%;">
+             <ul>
+                <li>Mrs. Dalloway's Party by Virginia Wolf</li>
+                <li>The White Album by Joan Didion</li>
+                <li>The Secret Life of Bees by Sue Monk Kidd</li>
+             </ul>
+        </div>
+
+
+
+    <h3>~ Challenge: A very simple bar graph ~</h3>
+    <!-- Challenge! Add CSS styles to '#longer' and '#long' to make the bar graph look like it's ordered from longest to shortest. You may also change the h4 text and the p text to make this simple bar chart reflect real (or fake) data. -->
+
+    <div id="bargraph">
+        <h4>Where Newhouse Students Eat (FAKE DATA)</h4>
+        <p class="bar_label">Schine Student Center</p>
+        <div id="longest"></div>
+        <p class="bar_label">Ernie Davis Dining Hall</p>
+        <div id="longer"></div>
+        <p class="bar_label">Food.com</p>
+        <div id="long"></div>
+    </div>
+     
+    </body>
 </html>
